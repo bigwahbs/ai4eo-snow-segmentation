@@ -33,8 +33,7 @@ ai4eo-snow-segmentation/
    git clone https://github.com/bigwahbs/ai4eo-snow-segmentation.git
    cd ai4eo-snow-segmentation
    ```
-
-  ii. Create the environment:
+   ii. Create the environment:
    ```bash
    conda env create -f environment.yml
    conda activate ai4eo-snow
