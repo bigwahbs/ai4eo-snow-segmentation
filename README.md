@@ -28,13 +28,13 @@ ai4eo-snow-segmentation/
 
 ## Quick start
 
-1) 1. Clone the repository:
+1) i. Clone the repository:
    ```bash
    git clone https://github.com/bigwahbs/ai4eo-snow-segmentation.git
    cd ai4eo-snow-segmentation
    ```
 
-  2. Create the environment:
+  ii. Create the environment:
    ```bash
    conda env create -f environment.yml
    conda activate ai4eo-snow
