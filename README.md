@@ -29,6 +29,7 @@ ai4eo-snow-segmentation/
 ## Quick start
 
 1) **Setup**
+
    i. Clone the repository:
    ```bash
    git clone https://github.com/bigwahbs/ai4eo-snow-segmentation.git
@@ -46,13 +47,13 @@ ai4eo-snow-segmentation/
    pip install -r requirements.txt
    ```
 
-2) **Place data**  
+3) **Place data**  
 This repository does not include raw satellite imagery (`.SAFE` folders) or large datasets.  
    You can obtain Sentinel-2 L2A products from the [Copernicus Open Access Hub](https://scihub.copernicus.eu/) or [Google Earth Engine](https://earthengine.google.com/).  
    Place the downloaded `.SAFE` folder in a directory of your choice and update the `SAFE_DIR` path in the notebook before running.
 
 
-3) **Run the notebook**  
+4) **Run the notebook**  
 Open `notebooks/Final_Project.ipynb` and set:
 ```python
 SAFE_DIR = "data/your data.SAFE"
