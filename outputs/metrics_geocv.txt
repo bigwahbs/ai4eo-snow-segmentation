@@ -1,0 +1,23 @@
+Train left → Test right
+              precision    recall  f1-score   support
+
+     No snow      0.950     0.963     0.957  10980546
+        Snow      0.898     0.863     0.880   4084524
+
+    accuracy                          0.936  15065070
+   macro avg      0.924     0.913     0.918  15065070
+weighted avg      0.936     0.936     0.936  15065070
+
+IoU (Snow): 0.786
+
+Train right → Test left
+              precision    recall  f1-score   support
+
+     No snow      0.931     0.952     0.941   8107413
+        Snow      0.943     0.917     0.930   6939949
+
+    accuracy                          0.936  15047362
+   macro avg      0.937     0.935     0.936  15047362
+weighted avg      0.936     0.936     0.936  15047362
+
+IoU (Snow): 0.869

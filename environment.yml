@@ -1,0 +1,13 @@
+name: ai4eo-snow
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - rasterio
+  - geopandas
+  - scikit-learn
+  - tqdm
+  - jupyterlab
