@@ -26,26 +26,50 @@ ai4eo-snow-segmentation/
 └── README.md
 ```
 
+## Installation
+
+This project uses Python 3.9+ and requires a few scientific and geospatial libraries.
+
+### Option 1: Using pip
+
+```bash
+# Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate   # On macOS/Linux
+.venv\Scripts\activate    # On Windows
+
+# Install required packages
+pip install numpy pandas matplotlib rasterio geopandas scikit-learn tqdm
+```
+
+### Option 2: Using conda
+
+```bash
+conda create -n ai4eo-snow python=3.9
+conda activate ai4eo-snow
+
+conda install numpy pandas matplotlib scikit-learn tqdm
+conda install -c conda-forge rasterio geopandas
+```
+
+### Key Dependencies
+
+- numpy, pandas → numerical + tabular data handling
+- matplotlib → visualization
+- rasterio → reading Sentinel-2 .jp2 raster data
+- geopandas → working with vector geometries (AOIs, shapefiles, etc.)
+- scikit-learn → Random Forest classifier and evaluation metrics
+- tqdm → progress bars for long loops
+
 ## Quick start
 
 1) **Setup**
-
-   i. Clone the repository:
+   Clone the repository:
    ```bash
    git clone https://github.com/bigwahbs/ai4eo-snow-segmentation.git
    cd ai4eo-snow-segmentation
    ```
-   ii. Create the environment:
-   ```bash
-   conda env create -f environment.yml
-   conda activate ai4eo-snow
-   ```
-   or, using pip:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
+   
 
 3) **Place data**  
 This repository does not include raw satellite imagery (`.SAFE` folders) or large datasets.  
