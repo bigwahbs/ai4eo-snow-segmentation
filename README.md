@@ -28,7 +28,8 @@ ai4eo-snow-segmentation/
 
 ## Quick start
 
-1) i. Clone the repository:
+1) **Setup**
+   i. Clone the repository:
    ```bash
    git clone https://github.com/bigwahbs/ai4eo-snow-segmentation.git
    cd ai4eo-snow-segmentation
