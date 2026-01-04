@@ -1,6 +1,6 @@
 # Snow Cover Segmentation in the Alps (Sentinel‑2 + RF baseline)
 
-This repository contains the final project for AI4EO: a reproducible pipeline for snow / no‑snow segmentation over the Alps using Sentinel‑2 L2A imagery. We compare a classical NDSI threshold with a supervised Random Forest classifier trained on the Scene Classification Layer (SCL) as pseudo‑labels. We use geographic cross‑validation (train left half → test right half, and vice‑versa).
+This repository contains a reproducible pipeline for snow / no‑snow segmentation over the Alps using Sentinel‑2 L2A imagery. We compare a classical NDSI threshold with a supervised Random Forest classifier trained on the Scene Classification Layer (SCL) as pseudo‑labels. We use geographic cross‑validation (train left half → test right half, and vice‑versa).
 
 <p align="center">
   <img src="figures/figure_comparison.png" alt="Comparison figure" />
